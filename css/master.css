@@ -1,0 +1,47 @@
+body {
+	font-family: "Noto Serif", serif;
+	background-color: #AFE4DC;
+	color: blue;
+	margin: 32px
+}
+
+
+h1,h2, h3, h4 {
+	font-family: "Open Sans";
+	font-size: 32px;
+	line-height: 52px;
+	margin: 40px;
+}
+p {
+	color: darkblue;
+	font-size: 18px;
+	line-height: 32px
+	margin: 40px;
+}
+#wrapper {
+	background-color: white;
+	width: 74%;
+	margin: 0 auto 0 auto;
+	padding: 0 3%;
+	background-image: url (../images "pattern1.jpg");
+	}
+	
+img.large {
+	width: 500px;
+	}
+	
+img.medium {
+	width: 250px;
+	float: left;
+	margin-right: 20px;
+	}
+	
+img.small {
+	width: 200px;
+	float: right;
+	}
+	
+img.center {
+	float: center;
+	}
+	

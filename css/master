@@ -1,0 +1,16 @@
+body {
+	font-family: Arial; san-serif;
+	background-color: #AFE4DC;
+	color; blue;
+}
+h1 {
+	font-family: Arial; san-serif;
+	color: red;
+}
+h2 {
+	font-family: Arial; san-serif;
+	color: green;
+}
+p {
+	colour: darkblue;
+}
