@@ -1,21 +1,117 @@
 body {
 	font-family: "Noto Sans", sans-serif;
 	background-color: rgb(255,243,203);
-	margin: 32px
+	margin: 32px;
+	background-image: url(../images/1280x500_fleetwoodlogo_top.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: contain, cover;
 }
 
-h1,h2, h3, h4 {
-	font-family: "Open Sans";
-	font-size: 32px;
-	line-height: 52px;
-	margin: 40px;
+.clearfix {
+    clear: both;
 }
 
 p {
-	color: 373737;
+	color: #373737;
 	font-size: 20px;
 	line-height: 32px;
-	margin: 40px;
+	margin: 20px 50px 20px 70px;
+}
+
+h1 {
+	font-family: "Alice", serif;
+	font-size: 20px;
+	line-height: 32px;
+	text-align: center;
+	font-weight: 800;
+	color: #D8C48A;
+	margin: 0 0 0 0;
+	text-transform: uppercase;
+	padding-bottom: 30%;
+}
+
+#top p a {
+	font-family: "Alice", serif;
+	font-size: 15px;
+	text-align: center;
+	color: white;
+	font-style: italic;
+	padding-bottom: 1%;
+}
+
+.content {
+	float: left;
+	position: fixed;
+	background-color: white;
+	}
+
+a {
+	text-decoration: none;
+}
+
+nav {
+    line-height: 30px;
+}
+
+nav ol li a {
+	font-family: "Alice", serif;
+    padding: 5px;
+    font-size: 18px;
+	list-style-type: none;
+	color: #373737;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+}
+
+a.hover {
+    color:  #8A171B;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+h2 {
+	font-family: "Alice", serif;
+	font-size: 32px;
+	line-height: 42px;
+	font-weight: 800;
+	text-transform: uppercase;
+	margin: 0 0 0 70px;
+	color: #8A171B;
+}
+
+.back_to_top {
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: 100;
+	float: right;
+	padding: 30px 0 5px 20px;
+	color: #373737;
+}
+
+h3	{
+	font-family: "Alice", serif;
+	font-size: 26px;
+	line-height: 28px;
+	font-weight: 800;
+	font-style: italic;
+	margin: 0 0 0 70px;
+	color: #8A171B;
+}
+
+h4 {
+	font-family: "Alice", serif;
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 100;
+	margin: 0 0 0 70px;
+	color: #8A171B;
 }
 
 #wrapper {
@@ -28,12 +124,6 @@ img.large {
 	width: 500px;
 	}
 
-#top {
-	background-image: url(../images "1280x500_fleetwoodlogo_top");
-	background-repeat: no-repeat;
-	background-size: cover;
-	color: #ffffff;
-}
 	
 img.medium {
 	width: 250px;
