@@ -1,10 +1,8 @@
 body {
-	font-family: "Noto Serif", serif;
-	background-color: #AFE4DC;
-	color: blue;
+	font-family: "Noto Sans", sans-serif;
+	background-color: rgb(255,243,203);
 	margin: 32px
 }
-
 
 h1,h2, h3, h4 {
 	font-family: "Open Sans";
@@ -12,23 +10,30 @@ h1,h2, h3, h4 {
 	line-height: 52px;
 	margin: 40px;
 }
+
 p {
-	color: darkblue;
-	font-size: 18px;
-	line-height: 32px
+	color: 373737;
+	font-size: 20px;
+	line-height: 32px;
 	margin: 40px;
 }
+
 #wrapper {
-	background-color: white;
-	width: 74%;
+	width: 60%;
 	margin: 0 auto 0 auto;
 	padding: 0 3%;
-	background-image: url (../images "pattern1.jpg");
 	}
 	
 img.large {
 	width: 500px;
 	}
+
+#top {
+	background-image: url(../images "1280x500_fleetwoodlogo_top");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #ffffff;
+}
 	
 img.medium {
 	width: 250px;
