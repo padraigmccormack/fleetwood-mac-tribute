@@ -1,7 +1,8 @@
 body {
 	font-family: "Noto Sans", sans-serif;
 	background-color: rgb(255,243,203);
-	margin: 32px;
+	margin: 0;
+	padding: 0;
 	background-image: url(../images/1280x500_fleetwoodlogo_top.jpg);
 	background-repeat: no-repeat;
 	background-position: left top;
@@ -16,65 +17,67 @@ p {
 	color: #373737;
 	font-size: 20px;
 	line-height: 32px;
-	margin: 20px 50px 20px 70px;
 }
 
-h1 {
+#top h1 {
 	font-family: "Alice", serif;
-	font-size: 20px;
+	font-size: 22px;
 	line-height: 32px;
 	text-align: center;
 	font-weight: 800;
 	color: #D8C48A;
-	margin: 0 0 0 0;
+	margin-top: 2%;
 	text-transform: uppercase;
-	padding-bottom: 30%;
+	padding-bottom: 25%;
 }
 
-#top p a {
+
+#top h2 a {
 	font-family: "Alice", serif;
-	font-size: 15px;
+	font-size: 12px;
 	text-align: center;
 	color: white;
 	font-style: italic;
-	padding-bottom: 1%;
+	padding-bottom: 2%;
+	margin-left: 50px;
+	text-transform: none;
 }
 
-.content {
-	float: left;
-	position: fixed;
-	background-color: white;
-	}
-
-a {
-	text-decoration: none;
+#content {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	background-color: #8A171B;
+	border-top-color: #D8C48A;
+	border-bottom-color: #D8C48A;
+	border-style: solid;
+    border-width: 2px;
+	height: 50px;
+	width: 100%;
+    font-family: "Alice", serif;
+    font-size: 15px;
+    font-weight: normal;
+    color: white;
+    margin: 0;
+    z-index: 2;
 }
 
-nav {
-    line-height: 30px;
-}
-
-nav ol li a {
-	font-family: "Alice", serif;
-    padding: 5px;
-    font-size: 18px;
+#content ol {
 	list-style-type: none;
-	color: #373737;
+	margin: 0 18% 0 18%;
 }
-
-a {
-    text-decoration: none;
+  
+#content li {
+	float: left;
+}
+  
+#content li a {
+    display: block;
     text-align: center;
+    padding: 15px 20px 15px 20px;
+	text-decoration: none;
+	color: white;
 }
-
-a.hover {
-    color:  #8A171B;
-}
-
-li {
-    list-style-type: none;
-}
-
 
 h2 {
 	font-family: "Alice", serif;
@@ -82,8 +85,8 @@ h2 {
 	line-height: 42px;
 	font-weight: 800;
 	text-transform: uppercase;
-	margin: 0 0 0 70px;
 	color: #8A171B;
+	margin-top: 50px;
 }
 
 .back_to_top {
@@ -91,8 +94,9 @@ h2 {
 	font-size: 15px;
 	font-weight: 100;
 	float: right;
-	padding: 30px 0 5px 20px;
 	color: #373737;
+	margin-bottom: 100px;
+	text-decoration: none;
 }
 
 h3	{
@@ -101,8 +105,8 @@ h3	{
 	line-height: 28px;
 	font-weight: 800;
 	font-style: italic;
-	margin: 0 0 0 70px;
 	color: #8A171B;
+	margin: 15px 0 15px 0;
 }
 
 h4 {
@@ -110,33 +114,120 @@ h4 {
 	font-size: 18px;
 	line-height: 30px;
 	font-weight: 100;
-	margin: 0 0 0 70px;
+	color: #8A171B;
+}
+
+#history_content {
+    font-family: "Alice", serif;
+    font-size: 18px;
+    font-weight: normal;
+	color: white;
+	margin-bottom: 50px;
+}
+
+#history_content ol {
+	list-style-type: none;
+	padding: 0;
+}
+  
+#history_content li a {
+	display: block;
+    padding: 5px 0 5px 0;
+	text-decoration: none;
 	color: #8A171B;
 }
 
 #wrapper {
-	width: 60%;
+	width: 50%;
 	margin: 0 auto 0 auto;
 	padding: 0 3%;
 	}
 	
-img.large {
-	width: 500px;
-	}
-
-	
-img.medium {
-	width: 250px;
-	float: left;
-	margin-right: 20px;
-	}
-	
-img.small {
-	width: 200px;
-	float: right;
-	}
 	
 img.center {
 	float: center;
+	width: 100%;
+	padding: 20px 0 20px 0;
 	}
+
+img.small {
+	width: 40%;
+	float: right;
+	padding: 0 0 20px 20px;
+	}
+
+img.smaller {
+	height: 175px;
+	padding: 0;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+}
+
+figure {
+	padding: 0 25px 35px 25px;
+	margin: 0;
+}
+
+
+.line1 figure {
+	float: left;
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+}
+
+.line2 figure {
+	float: left;
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+}
+
+figcaption p {
+	font-size: 13px;
+	font-weight: 800px;
+	line-height: 18px;
+	text-align: center;
+	margin: 0;
+}
+
+h5 {
+	font-size: 15px;
+	color: #8A171B;
+	ine-height: 22px;
+	text-align: center;
+	margin: 0;
+}
+.small_bold {
+	font-size: 11px;
+	font-weight: 600px;
+}
+
+ol li {
+	margin-bottom: 15px;
+	}
+
+
+#top {
+	padding: 50px;
+}
+/*
+	img.large {
+		width: 500px;
+		}
 	
+		
+	img.medium {
+		width: 100%;
+		float: left;
+		margin-right: 20px;
+		}
+		
+	img.small {
+		width: 100%;
+		float: right;
+		}
+
+/*
